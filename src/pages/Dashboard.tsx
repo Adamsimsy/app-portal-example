@@ -1,7 +1,7 @@
-import React, { FC } from 'react';
+import React, { VFC } from 'react';
 import logo from '../logo.svg';
 
-export const Dashboard: FC<any> = ({ }) => {
+export const Dashboard: VFC = () => {
   return (
     <header className="App-header">
       <img src={logo} className="App-logo" alt="logo" />
