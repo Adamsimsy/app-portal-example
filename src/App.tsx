@@ -1,26 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import './App.css';
-import {PortalAppBar} from './components/PortalAppBar'
+import { PortalAppBar } from './components/PortalAppBar'
+import { Home } from './pages/Home'
+import { Dashboard } from './pages/Dashboard'
+import { AppA } from './pages/AppA'
+import { AppB } from './pages/AppB'
 
 function App() {
   return (
     <div className="App">
-      <PortalAppBar />
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React Yo!
-        </a>
-      </header>
+      <BrowserRouter>
+        <PortalAppBar />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/dashboard" component={Dashboard} />
+          <Route exact path="/app/a" component={AppA} />
+          <Route exact path="/app/b" component={AppB} />
+        </Switch>
+      </BrowserRouter>
     </div>
   );
 }

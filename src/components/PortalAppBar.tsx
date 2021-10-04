@@ -8,6 +8,7 @@ import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import Box from '@mui/material/Box';
+import { Link } from 'react-router-dom';
 
 export class PortalAppBar extends Component<{}, { isDrawerOpen: boolean }> {
   constructor(props: any) {
@@ -28,16 +29,16 @@ export class PortalAppBar extends Component<{}, { isDrawerOpen: boolean }> {
             sx={{ width: 250, bgcolor: 'primary.dark' }}>
             <List>
               <ListItem button>
-                <ListItemText primary="Home" />
+                <Link to="/">Home</Link>
               </ListItem>
               <ListItem button>
-                <ListItemText primary="About" />
+                <Link to="/dashboard">Dashboard</Link>
               </ListItem>
               <ListItem button>
-                <ListItemText primary="Contact" />
+                <Link to="/app/a">App A</Link>
               </ListItem>
               <ListItem button>
-                <ListItemText primary="Services" />
+                <Link to="/app/b">App B</Link>
               </ListItem>
             </List>
           </Box>
