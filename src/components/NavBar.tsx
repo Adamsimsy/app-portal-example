@@ -10,7 +10,7 @@ import ListItemText from '@mui/material/ListItemText';
 import Box from '@mui/material/Box';
 import { Link } from 'react-router-dom';
 
-export class PortalAppBar extends Component<{}, { isDrawerOpen: boolean }> {
+export class NavBar extends Component<{}, { isDrawerOpen: boolean }> {
   constructor(props: any) {
     super(props);
     this.state = {
@@ -28,18 +28,18 @@ export class PortalAppBar extends Component<{}, { isDrawerOpen: boolean }> {
           <Box
             sx={{ width: 250, bgcolor: 'primary.dark' }}>
             <List>
-              <ListItem button>
-                <Link to="/">Home</Link>
-              </ListItem>
-              <ListItem button>
-                <Link to="/dashboard">Dashboard</Link>
-              </ListItem>
-              <ListItem button>
-                <Link to="/app/a">App A</Link>
-              </ListItem>
-              <ListItem button>
-                <Link to="/app/b">App B</Link>
-              </ListItem>
+              <Link to="/" >
+                <ListItem button>Home</ListItem>
+              </Link>
+              <Link to="/dashboard" >
+                <ListItem button>Dashboard</ListItem>
+              </Link>
+              <Link to="/app/a" >
+                <ListItem button>App A</ListItem>
+              </Link>
+              <Link to="/app/b" >
+                <ListItem button>App B</ListItem>
+              </Link>
             </List>
           </Box>
         </Drawer>

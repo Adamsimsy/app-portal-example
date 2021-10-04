@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import './App.css';
-import { PortalAppBar } from './components/PortalAppBar'
+import { NavBar } from './components/NavBar'
 import { Home } from './pages/Home'
 import { Dashboard } from './pages/Dashboard'
 import { AppA } from './pages/AppA'
@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <PortalAppBar />
+        <NavBar />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/dashboard" component={Dashboard} />
