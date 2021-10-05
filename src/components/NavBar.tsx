@@ -28,16 +28,16 @@ export class NavBar extends Component<{}, { isDrawerOpen: boolean }> {
             sx={{ width: 250, bgcolor: 'primary.dark' }}>
             <List>
               <Link to="/" >
-                <ListItem button>Home</ListItem>
+                <ListItem sx={{ color: 'white' }} button>Home</ListItem>
               </Link>
               <Link to="/dashboard" >
-                <ListItem button>Dashboard</ListItem>
+                <ListItem sx={{ color: 'white' }} button>Dashboard</ListItem>
               </Link>
               <Link to="/app/a" >
-                <ListItem button>App A</ListItem>
+                <ListItem sx={{ color: 'white' }} button>App A</ListItem>
               </Link>
               <Link to="/app/b" >
-                <ListItem button>App B</ListItem>
+                <ListItem sx={{ color: 'white' }} button>App B</ListItem>
               </Link>
             </List>
           </Box>
