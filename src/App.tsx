@@ -3,10 +3,9 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import './App.css';
 import { NavBar } from './components/NavBar'
 import { Home } from './pages/Home'
+import { AppRoutes } from './apps/AppRoutes'
 
 const Dashboard = lazy(() => import('./pages/Dashboard'));
-const AppA = lazy(() => import('./pages/AppA'));
-const AppB = lazy(() => import('./pages/AppB'));
 
 function App() {
   return (
@@ -17,8 +16,7 @@ function App() {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/dashboard" component={Dashboard} />
-            <Route exact path="/app/a" component={AppA} />
-            <Route exact path="/app/b" component={AppB} />
+            <AppRoutes />
           </Switch>
         </Suspense>
       </BrowserRouter>
