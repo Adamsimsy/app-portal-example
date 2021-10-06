@@ -1,14 +1,16 @@
 import React, { VFC, lazy } from 'react';
 import { Route } from "react-router-dom";
 
-const routes = [
+export const routes = [
     {
         path: "/app/a",
         component: lazy(() => import('./AppA')),
+        name: "App A"
     },
     {
         path: "/app/b",
         component: lazy(() => import('./AppB')),
+        name: "App B"
     }
 ];
 

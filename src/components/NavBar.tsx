@@ -8,6 +8,7 @@ import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import Box from '@mui/material/Box';
 import { Link } from 'react-router-dom';
+import { routes } from '../apps/AppRoutes'
 
 export class NavBar extends Component<{}, { isDrawerOpen: boolean }> {
   constructor(props: any) {
@@ -33,12 +34,11 @@ export class NavBar extends Component<{}, { isDrawerOpen: boolean }> {
               <Link to="/dashboard" >
                 <ListItem sx={{ color: 'white' }} button>Dashboard</ListItem>
               </Link>
-              <Link to="/app/a" >
-                <ListItem sx={{ color: 'white' }} button>App A</ListItem>
-              </Link>
-              <Link to="/app/b" >
-                <ListItem sx={{ color: 'white' }} button>App B</ListItem>
-              </Link>
+              {routes.map((route, i) => (
+                <Link key={i} to={route.path} >
+                  <ListItem sx={{ color: 'white' }} button>{route.name}</ListItem>
+                </Link>
+              ))}
             </List>
           </Box>
         </Drawer>
