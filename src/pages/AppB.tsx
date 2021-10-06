@@ -1,7 +1,7 @@
 import React, { VFC } from 'react';
 import logo from '../logo.svg';
 
-export const AppB: VFC = () => {
+const AppB: VFC = () => {
   return (
     <header className="App-header">
       <img src={logo} className="App-logo" alt="logo" />
@@ -11,3 +11,4 @@ export const AppB: VFC = () => {
     </header>
   );
 };
+export default AppB;
