@@ -1,10 +1,10 @@
 {
-    "name": "npm-react-typescript-template",
+    "name": "app-portal-xample-app-c",
     "version": "1.0.0",
-    "description": "A template for publishing a React + TypeScript package to npm",
+    "description": "An example app for embedding into a portal via an NPM package.",
     "author": "ovieokeh",
     "license": "Apache-2.0",
-    "repository": "ovieokeh/npm-react-typescript-template",
+    "repository": "adamsimsy/app-portal-example",
     "main": "dist/index.js",
     "engines": {
         "node": ">=8",
