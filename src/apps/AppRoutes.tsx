@@ -11,6 +11,11 @@ export const routes = [
         path: "/app/b",
         component: lazy(() => import('./AppB')),
         name: "App B"
+    },
+    {
+        path: "/app/c",
+        component: lazy(() => import('app-portal-xample-app-c')),
+        name: "App C"
     }
 ];
 
