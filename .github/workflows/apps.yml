@@ -24,6 +24,8 @@ jobs:
           scope: '@octocat'
       - run: npm install
         working-directory: ./apps/app-c
+      - run: npm build
+        working-directory: ./apps/app-c
       - run: npm publish
         working-directory: ./apps/app-c
         env:
