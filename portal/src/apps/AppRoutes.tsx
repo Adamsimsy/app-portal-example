@@ -14,7 +14,7 @@ export const routes = [
     },
     {
         path: "/app/c",
-        component: lazy(() => import('app-portal-xample-app-c')),
+        component: lazy(() => import('app-portal-example-app-c')),
         name: "App C"
     }
 ];
