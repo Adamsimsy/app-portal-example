@@ -22,7 +22,7 @@
     "react-scripts": "4.0.3",
     "typescript": "^4.1.2",
     "web-vitals": "^1.0.1",
-    "@adamsimsy/app-portal-example-app-c": "1.0.0"
+    "app-portal-example-app-c": "^1.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
