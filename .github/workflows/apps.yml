@@ -1,0 +1,32 @@
+name: Node.js Package
+on:
+  push:
+    paths:
+      - 'apps/**'
+      - '.github/workflows/apps.yml'
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+jobs:
+  build:
+    runs-on: ubuntu-latest 
+    permissions: 
+      contents: read
+      packages: write 
+    steps:
+      - uses: actions/checkout@v2
+      # Setup .npmrc file to publish to GitHub Packages
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '12.x'
+          registry-url: 'https://npm.pkg.github.com'
+          # Defaults to the user or organization that owns the workflow file
+          scope: '@adamsimsy'
+      - run: npm install
+        working-directory: ./apps/app-c
+      - run: npm run build
+        working-directory: ./apps/app-c
+      - run: npm publish
+        working-directory: ./apps/app-c
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

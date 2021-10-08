@@ -1,10 +1,13 @@
 {
-    "name": "app-portal-xample-app-c",
+    "name": "@adamsimsy/app-portal-xample-app-c",
     "version": "1.0.0",
     "description": "An example app for embedding into a portal via an NPM package.",
     "author": "ovieokeh",
     "license": "Apache-2.0",
-    "repository": "adamsimsy/app-portal-example",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Adamsimsy/app-portal-example.git"
+    },
     "main": "dist/index.js",
     "engines": {
         "node": ">=8",
