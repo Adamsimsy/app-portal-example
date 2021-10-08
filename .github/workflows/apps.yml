@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - 'apps/**'
+      - 'workdlows/apps.yml'
     branches: [ main ]
   pull_request:
     branches: [ main ]
