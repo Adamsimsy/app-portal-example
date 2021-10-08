@@ -7,8 +7,7 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/Adamsimsy/app-portal-example.git"
-    }
-    "repository": "adamsimsy/app-portal-example",
+    },
     "main": "dist/index.js",
     "engines": {
         "node": ">=8",
