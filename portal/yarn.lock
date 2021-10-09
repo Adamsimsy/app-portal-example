@@ -2246,10 +2246,10 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react-router-dom@5.3.0":
-  version "5.3.0"
-  resolved "https://registry.npmjs.org/@types/react-router-dom/-/react-router-dom-5.3.0.tgz#8c4e0aa0ccaf638ba965829ad29a10ac3cbe2212"
-  integrity sha512-svUzpEpKDwK8nmfV2vpZNSsiijFNKY8+gUqGqvGGOVrXvX58k1JIJubZa5igkwacbq/0umphO5SsQn/BQsnKpw==
+"@types/react-router-dom@5.3.1":
+  version "5.3.1"
+  resolved "https://registry.npmjs.org/@types/react-router-dom/-/react-router-dom-5.3.1.tgz#76700ccce6529413ec723024b71f01fc77a4a980"
+  integrity sha512-UvyRy73318QI83haXlaMwmklHHzV9hjl3u71MmM6wYNu0hOVk9NLTa0vGukf8zXUqnwz4O06ig876YSPpeK28A==
   dependencies:
     "@types/history" "*"
     "@types/react" "*"
@@ -2796,10 +2796,10 @@ anymatch@^3.0.3, anymatch@~3.1.1:
     normalize-path "^3.0.0"
     picomatch "^2.0.4"
 
-app-portal-example-app-c@1.0.3:
-  version "1.0.3"
-  resolved "https://registry.npmjs.org/app-portal-example-app-c/-/app-portal-example-app-c-1.0.3.tgz#b8ccb5f05fb354be8fe1214f3d23b43cad11557d"
-  integrity sha512-2zkhxx1i5Oeor6pAtU68lVoDNRiXweBYvT4WqBGSbsp5umUx66NXn/oKafCv8lAjUK2PxDIZiGfz/Il1uSMYLA==
+app-portal-example-app-c@1.1.37:
+  version "1.1.37"
+  resolved "https://registry.npmjs.org/app-portal-example-app-c/-/app-portal-example-app-c-1.1.37.tgz#c473c99286d909e2537667c351025b0cea2c1688"
+  integrity sha512-Rwv3X/TimrADyDB+HkdFN4WAD7zRfxE6CuR3CdJ2+QQkBsEzRVm94+IIkh6CazynCrHjaWWvow8q8b6TUdOUTw==
 
 aproba@^1.1.1:
   version "1.2.0"
