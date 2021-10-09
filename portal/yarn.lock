@@ -2774,10 +2774,10 @@ anymatch@^3.0.3, anymatch@~3.1.1:
     normalize-path "^3.0.0"
     picomatch "^2.0.4"
 
-app-portal-example-app-c@1.1.75:
-  version "1.1.75"
-  resolved "https://registry.npmjs.org/app-portal-example-app-c/-/app-portal-example-app-c-1.1.75.tgz#3b9ce629d7383563f4f9afedfa6245b8a67ed9bc"
-  integrity sha512-vOG1CJ6zMAxk35QZUg8VjLPk7lCffj3RTec1H+QC3gFdTcqx8pu4IH+1Zhut9OLKcu2OKK9hzSrP+Iu8eiAnhw==
+app-portal-example-app-c@1.1.109:
+  version "1.1.109"
+  resolved "https://registry.npmjs.org/app-portal-example-app-c/-/app-portal-example-app-c-1.1.109.tgz#a58043c109e59e8ced682a9264f26bc48d9fa7c6"
+  integrity sha512-9E+MOD0b+Cbsky3Q20ln3Oq0GTmIUEkHJ9ZascDHuw+5PorVpwg/t4F+2mHiF47Hs+puAb5DXFWV+yFqNy0sQw==
 
 aproba@^1.1.1:
   version "1.2.0"
