@@ -2054,10 +2054,10 @@
     "@babel/runtime" "^7.12.5"
     "@testing-library/dom" "^7.28.1"
 
-"@testing-library/user-event@12.8.3":
-  version "12.8.3"
-  resolved "https://registry.npmjs.org/@testing-library/user-event/-/user-event-12.8.3.tgz#1aa3ed4b9f79340a1e1836bc7f57c501e838704a"
-  integrity sha512-IR0iWbFkgd56Bu5ZI/ej8yQwrkCv8Qydx6RzwbKz9faXazR/+5tvYKsZQgyXJiwgpcva127YO6JcWy7YlCfofQ==
+"@testing-library/user-event@13.2.1":
+  version "13.2.1"
+  resolved "https://registry.npmjs.org/@testing-library/user-event/-/user-event-13.2.1.tgz#7a71a39e50b4a733afbe2916fa2b99966e941f98"
+  integrity sha512-cczlgVl+krjOb3j1625usarNEibI0IFRJrSWX9UsJ1HKYFgCQv9Nb7QAipUDXl3Xdz8NDTsiS78eAkPSxlzTlw==
   dependencies:
     "@babel/runtime" "^7.12.5"
 
@@ -2796,10 +2796,10 @@ anymatch@^3.0.3, anymatch@~3.1.1:
     normalize-path "^3.0.0"
     picomatch "^2.0.4"
 
-app-portal-example-app-c@1.0.3:
-  version "1.0.3"
-  resolved "https://registry.npmjs.org/app-portal-example-app-c/-/app-portal-example-app-c-1.0.3.tgz#b8ccb5f05fb354be8fe1214f3d23b43cad11557d"
-  integrity sha512-2zkhxx1i5Oeor6pAtU68lVoDNRiXweBYvT4WqBGSbsp5umUx66NXn/oKafCv8lAjUK2PxDIZiGfz/Il1uSMYLA==
+app-portal-example-app-c@1.1.37:
+  version "1.1.37"
+  resolved "https://registry.npmjs.org/app-portal-example-app-c/-/app-portal-example-app-c-1.1.37.tgz#c473c99286d909e2537667c351025b0cea2c1688"
+  integrity sha512-Rwv3X/TimrADyDB+HkdFN4WAD7zRfxE6CuR3CdJ2+QQkBsEzRVm94+IIkh6CazynCrHjaWWvow8q8b6TUdOUTw==
 
 aproba@^1.1.1:
   version "1.2.0"
