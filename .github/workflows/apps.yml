@@ -4,8 +4,6 @@ on:
     paths:
       - 'apps/**'
       - '.github/workflows/apps.yml'
-    paths-ignore: 
-      - 'portal/**'
     branches: [ main ]
   pull_request:
     types: [opened, synchronize, reopened, closed]
