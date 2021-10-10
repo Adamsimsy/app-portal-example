@@ -11,7 +11,7 @@ on:
     
 jobs:
   build_and_publish:
-    if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
+    if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action == 'closed')
     name: Build and publish
     runs-on: ubuntu-latest 
     permissions: 
@@ -36,7 +36,7 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
   build_only:
-    if: github.event_name == 'pull_request' && github.event.action == 'closed'
+    if: github.event_name == 'pull_request' && github.event.action != 'closed'
     name: Build only
     runs-on: ubuntu-latest 
     permissions: 
