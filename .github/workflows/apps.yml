@@ -11,7 +11,7 @@ on:
     
 jobs:
   build_and_publish:
-    if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action == 'closed')
+    if: github.event_name == 'push'
     name: Build and publish
     runs-on: ubuntu-latest 
     permissions: 
