@@ -3,7 +3,7 @@ import './styles.scss'
 
 const Package: React.FC = () => (
     <div className="package">
-        <h2>Do cool stuff v1.0.4</h2>
+        <h2>Do cool stuff v1.0.4 test</h2>
     </div>
 )
 
