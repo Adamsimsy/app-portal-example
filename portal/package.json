@@ -16,7 +16,7 @@
     "@types/node": "14.17.22",
     "@types/react": "17.0.29",
     "@types/react-dom": "17.0.9",
-    "@types/react-router-dom": "5.3.1",
+    "@types/react-router-dom": "5.3.3",
     "app-portal-example-app-c": "1.1.150",
     "react": "17.0.2",
     "react-dom": "17.0.2",
